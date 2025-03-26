@@ -12,14 +12,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
     @Id
     private String id;
-
     @Indexed(unique = true)
     private String email;
-
+    private String password;
     private String name;
-
     private String pictureUrl;
-
-    @Indexed(unique = true)
-    private String googleId;
+    private String role;
 }
