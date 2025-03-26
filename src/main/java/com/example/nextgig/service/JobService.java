@@ -87,6 +87,5 @@ public class JobService {
 //
 //    public List<Job> recommendJobs(List<String> skills) {
 //        return jobRepository.findBySkillsRequiredIn(skills);
-//    }
 }
 
